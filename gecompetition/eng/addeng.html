@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <!--    外观的文件-->
+    <link rel="stylesheet" type="text/css" href="css/style3.css"/>
+    <script src="js/modernizr.custom.js"></script>
+
+    <!--    table的文件-->
+    <title>Add Engineer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+    <h1>Add Engineers</h1>
+    <form action="addeng.php" method="post">
+        <table id="keywords" cellspacing="0" cellpadding="0">
+            <thead>
+            <tr>
+                <th><span>E_ID</span></th>
+                <th><span>E_Name</span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr style='text-align: center'><td><input type="text" name="ID"></td><td><input type="text" name="Name"></td></tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Submit" text-align="center">
+    </form>
+
+</div>
+
+<div class="container">
+    <nav id="bt-menu" class="bt-menu">
+        <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+        <ul>
+            <li><a href="/../gecompetition/eng/allengineers.php" class="bt-icon icon-user-outline">All Engineers</a></li>
+            <li><a href="#" class="bt-icon icon-sun">Search Engineers</a></li>
+            <li><a href="/../gecompetition/eng/addeng.html" class="bt-icon icon-windows">Add Engineers</a></li>
+            <li><a href="/../gecompetition/tools/alltools.php" class="bt-icon icon-speaker">All Tools</a></li>
+            <li><a href="#" class="bt-icon icon-star">Search Tools</a></li>
+            <li><a href="#" class="bt-icon icon-bubble">Add Tools</a></li>
+        </ul>
+    </nav>
+</div><!-- /container -->
+</body>
+<script src="js/classie.js"></script>
+<script src="js/borderMenu.js"></script>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://tablesorter.com/__jquery.tablesorter.min.js'></script>
+<script src="js/index.js"></script>
+</html>
